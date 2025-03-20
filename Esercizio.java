@@ -12,7 +12,7 @@ class Esercizio {
         for (i=riga.length()-1; i>1; --i) {
             agir = agir + riga.charAt(i);
         }
-        returna agir;
+        return agir;
     }
 
     public static void main(String args[]) {
